@@ -1,0 +1,59 @@
+<courtEngine>
+	<scenes>
+		<scene type="misc" bg="lobby_base" bgType="standard" transition="fadeFromBlack">
+			<music value="music_lobby" />
+			<lawyer>So here we are</lawyer>
+			<lawyer sound="sfx_lightbulb">Its my first day to court, the training wheels are off, and it time to fly free</lawyer>
+			<defendant anim="neutral">Hey Pal, what are you talking to yourself for?</defendant>
+			<lawyer charReaction="headscratch">Oh! uh... nothing! Ignore me, i sometimes think outloud, habbit really</lawyer>
+			<defendant anim="neutral">Your sort of a weird duck arent you?</defendant>
+			<lawyer>Well uhh...</lawyer>
+			<prosecutor anim="front_angry">There you are!</prosecutor>
+			<lawyer>AH! Edgeworth, what are you doing here?</lawyer>
+			<prosecutor>Im here to inform you that you are going down today, finally</prosecutor>
+			<lawyer>Well see about that!</lawyer>
+			<prosecutor>Indeed...</prosecutor>
+		</scene>
+		<scene type="court">
+			<lawyer>Ready</lawyer>
+		</scene>
+	</scenes>
+</courtEngine>
+
+<!--
+Base Basics
+<courtEngine></courtEngine> = Starting blocks of a courtEngine database, think of <html></html>
+<scenes></scenes> = Encasulates <scene> tags
+
+<scene></scene> 
+When these are called, the scene is cross faded into the next scene automatically via a specified transition. Here are the attributes
+type=""
+values: "misc", "court"
+when the type is a court, no other information is required. When the type is a Misc, itll allow input for a Background and a Background type
+bg=""
+Only called upon when type is equal to "misc", this alows you to specify a background image. The text used here is defined in 'scripts/graphics_manifest.ces'
+bgType=""
+values: "standard", "wide"
+When bgType is given the value of 'standard', the bg image typically takes up the entire 256x192 area. If its set to 'wide' a button will become active to scroll the background
+transition=""
+values: "fadeFromBlack"
+Transition types, pretty self explanitory by the names
+
+<music />
+A music tag allows you to change the music on the fly, depending on the mood the story is in. These are instant transitions. If you want complete silence, provide and empty tag
+value=""
+This attribute allows you to specify the song in question. These songs are defined by you in the 'scripts/sounds_manifest.ces"
+
+Character Tags
+char tags have 2 different behaviours depending on the scene type. If its out of court, the old character will fade out, and the new one will fade in. 
+When in court, depending on the character, will either instantly cut transition to them, or pan to them. 
+
+<lawyer></lawyer>
+The lawyer tags are a bit special. being as the game is in first person perspective outside of court, the character doesn't need to be zapped into view. 
+However, there is a special attribute allocated to the lawyer tag that does not exist for anyone else, this is charReaction. All attributes are detailed as follows:
+sound=""
+Allows you to play a sound the moment the text starts typing. The sound is defined in 'scripts/sounds_manifest.ces'
+effect=""
+values: 
+
+-->

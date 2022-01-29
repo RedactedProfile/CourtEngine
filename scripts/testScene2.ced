@@ -1,0 +1,20 @@
+<courtEngine>
+	<scenes>
+		<scene type="cinema" src="act00_cinematic" music="act00_music" />
+		<scene type="misc" bg="lobby_base" bgType="standard">
+			
+		</scene>
+		<scene type="court">
+			<gavel />
+			<charSwitch char="judge" anim="neutral" />
+			<speech label="Judge">We are in court today...</speech>
+			<speech>For the case of Dick Gumshoe vs Larry Butz</speech>
+			<speech>Is the Defense ready?</speech>
+			<charSwitch char="attourney" anim="nod" />
+			<speech label="Phoenix">Defense is ready your honor!</speech>
+			<charSwitch char="judge" anim="neutral" />
+			<speech label="Judge">Is the Prosecution ready?</speech>
+			<charSwitch char="prosecution"
+		</scene>
+	</scenes>
+</courtEngine>

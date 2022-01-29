@@ -1,0 +1,17 @@
+&defult_vox=en&
+&fallback_vox=en&
+&episode_title=Asylum Turnabout&
+&episode_author=Kyle Harrison&
+&fullscreen=false&
+&menu_bg=images/menu/bg.png&
+&menu_title=images/menu/title.png&
+&menu_play=images/menu/play.png&
+&menu_credits=images/menu/credits.png&
+&menu_title_pos=0,0&
+&menu_play_pos=25,25&
+&menu_credits_pos=25,55&
+&gfx_manifest=scripts/graphics_manifest.ces&
+&snd_manifest=scripts/sounds_manifest.ces&
+&scenes_data=scripts/testScene2.ced&
+&trailers=cinema/disclaimer.swf|cinema/blackjag.swf&
+&COMMENT=scripts/scenes.ced = CourtEngineData, keeping as XML for now for syntax hilighting&

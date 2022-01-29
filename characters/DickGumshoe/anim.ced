@@ -1,0 +1,3 @@
+&COMMENT=Animation Defintions, tells the engine which Animations are associated with eachother&
+&COMMENT=The identifier ont he left, is used in the XML script using the anim attribute&
+&front_angry=front_angry,front_angry_talk&

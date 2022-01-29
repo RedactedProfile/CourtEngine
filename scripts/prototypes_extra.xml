@@ -1,0 +1,33 @@
+
+		<scene type="cinema" src="cin-act00" music="cin-act00" />
+		<scene type="misc" bg="bg-lobby-base" bgType="standard" info="August 17. 2:04 pm,District Court Lobby">
+		
+			<!-- basic out of court sequence test -->
+			<charSwitch char="LarryButz" anim="sweating" />
+			<animation anim="lashout" />
+			<speech char="LarryButz">Wright! Man! You have to help me!</speech>
+			<speech char="PhoenixWright">Whoa! Calm down larry, whats wrong?</speech>
+			<speech char="LarryButz">Hes after me! hes after m-</speech>
+			<speech char="???">There you are!</speech>
+			<animation anim="ack" />
+			<speech char="LarryButz">GOTTA GO!</speech>
+			<charSwitch char="DickGumSshoe" />
+			<speech char="DickGumshoe">Damn! Almost had him...</speech>
+			<speech char="DickGumshoe" sound="sfx-lightbulb">Oh! Hey Pal! Long time no see</speech>
+			
+			<!-- Evidence gathering test -->
+			<pip imgSrc="gfx-autopsy" align="right" />
+			<speech char="DickGumshoe">heres the autopsy report</speech>
+			<addEvidence imgSrc="gfx-autopsy" />
+			
+			<!-- Special sequences outside of court -->
+			<charSwitch char="MayaFey" anim="concerned" />
+			<sequence>
+				<speech char="PhoenixWright">Hmm what if...NO!... NO WAY!!</speech>
+				<wait time="1250">
+				<animation anim="shock" />
+				<music src="music-realization" />
+			</sequence>
+			<speech char="MayaFey">Wh..whats up Nick?</speech>
+			<speech char="PhoenixWright">C'mon, lets go!</speech>
+		</scene>

@@ -1,0 +1,49 @@
+<!-- .CED Format Prototype 1, nothing spoken or done actually makes sense, msot of its jsut test sequences -->
+<courtEngine>
+	<scenes>
+		<scene type="cinema" id="cinema_act00" music="music_act00" />
+		<scene type="court" initialWitness="gumshoe">
+			<!-- Shock realization test -->
+			<gavel />
+			<charSwitch char="judge" anim="neutral" />
+			<speech char="judge">We gather here today, to witness the holy matri-</speech>
+			<speech char="judge">Er.. sorry, wrong documents</speech>
+			<charSwitch char="phoenix" anim="sweating" />
+			<speech char="phoenix" type="thought">Were not getting married here...</speech>
+			<charSwitch char="edgeworth" anim="neutral" type="pan" />
+			<speech char="edgeworth">Please your honor, pay more attention</speech>
+			<charSwitch char="judge" anim="shocked" />
+			<speech char="judge">Er yes.. of course</speech>
+			<gavel />
+			<music id="music-core2002"  />
+			<charSwitch char="lawyer" anim="neutral" />
+			<sequence>
+				<speech type="thought" char="phoenix">You had.. er.. WHAAAT?! ACK!!!</speech>
+				<wait time="1000" />
+				<animation anim="crack" sound="sfx-damage" />
+				<wait time="300" />
+				<animation anim="crack" sound="sfx-damage" />
+			</sequence>
+			<animation anim="sweating" />
+			<speech char="phoenix">You mean to tell me you knew this all along?</speech>
+			
+			<!-- Testimony test -->
+			<testimony music="exam2001">
+				<speech anim="thinking">It all started on the mornign of July</speech>
+				<speech anim="headscratch">I think it was July anyways...</speech>
+			</testimony>
+			<crossexam music="allegro-exam2001">
+				<charSwitch char="phoenix" anim="evidencetap" />
+				<speech char="phoenix">So let me get this straight, you say it was the morning?</speech>
+				<animation anim="deskslam" wait="true" />
+				<animation anim="fingerpoint" />
+				<speech char="phoenix">But it happened in the evening!!</speech>
+			</crossexam>
+			<charSwitch char="judge" anim="surprised" />
+			<speech char="judge">im ready to pass judgement</speech>
+			<speech char="judge">Shit guys, lol, i dunno what im doing</speech>
+			<!-- Witness switching -->
+			<switchWitness src="RonDeLite" />
+		</scene>
+	</scenes>
+</courtEngine>

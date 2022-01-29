@@ -1,0 +1,20 @@
+<courtEngine>
+	<credits music="music-victory">
+		<section title="CourtEngine Design">
+			<name>Kyle Harrison, http://courtengine.blackjagstudios.com</name>
+		</section>
+		<img src="credits-01" />
+		<section title="CourtEngine Programming">
+			<name>Kyle Harrison, http://kyle.blackjagstudios.com</name>
+		</section>
+		<img src="credits-02" />
+		<section title="CourtEngine Consultants/QA">
+			<name>Miles 'Tails' Kjeller</name>
+			<name>Jaminder Gill</name>
+		</section>
+		<img src="credits-03" />
+		<section title='"Asylum Turnabout" Character Graphics'>
+			<name>Tilas Trinity, http://www.artinsanity.com</name>
+		</section>
+	</credits>
+</courtEngine>

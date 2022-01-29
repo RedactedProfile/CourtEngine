@@ -1,0 +1,9 @@
+.EXE = CourtEngine Executables
+.CED = CourtEngine Scene Data, XML Structures
+.CES = CourtEngine Scripts
+.CEC = CourtEngine Character Definition
+.CEA = CourtEngine Animation, SWF Files (renamed)
+.CEM = CourtEngine Manifest Script
+.MP3 = Sound Data, Sound Effects, 
+.PNG = 32bit Images with Transparency Data, used for Sprites
+.JPG = 24bit Images, Primarily used for Backgrounds

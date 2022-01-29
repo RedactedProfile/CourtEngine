@@ -1,0 +1,6 @@
+&COMMENT=char_base is the general folder name is where to find his stuff, Animation and Audio wise, if applicable&
+&char_ref=yedgeworth&
+&COMMENT=char_label is the name that appears on the text window&
+&char_label=Edgeworth&
+&COMMENT=char_neutral is the starting default position for all characters&
+&char_neutral=neutral&
